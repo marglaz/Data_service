@@ -1,0 +1,29 @@
+2024-11-15 21:40:58.6409|ERROR|Dadata_service.ErrorHandlingMiddleware|AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> AddressResponse
+System.Collections.Generic.List`1[[Dadata_service.Models.AddressRequest, Dadata_service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Dadata_service.Models.AddressResponse
+
+Type Map configuration:
+List`1 -> AddressResponse
+System.Collections.Generic.List`1[[Dadata_service.Models.AddressRequest, Dadata_service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Dadata_service.Models.AddressResponse
+
+Destination Member:
+result
+
+2024-11-15 21:42:03.0763|ERROR|Dadata_service.ErrorHandlingMiddleware|AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> AddressResponse
+System.Collections.Generic.List`1[[Dadata_service.Models.AddressRequest, Dadata_service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Dadata_service.Models.AddressResponse
+
+Type Map configuration:
+List`1 -> AddressResponse
+System.Collections.Generic.List`1[[Dadata_service.Models.AddressRequest, Dadata_service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Dadata_service.Models.AddressResponse
+
+Destination Member:
+result
+
+2024-11-15 22:07:55.4959|ERROR|Dadata_service.ErrorHandlingMiddleware|System.ArgumentException: Incorrect number of arguments supplied for call to method 'Dadata_service.Models.AddressResponse get_Item(Int32)' (Parameter 'property')
+2024-11-15 22:15:12.3595|ERROR|Dadata_service.ErrorHandlingMiddleware|System.ArgumentException: Incorrect number of arguments supplied for call to method 'Dadata_service.Models.AddressResponse get_Item(Int32)' (Parameter 'property')
+2024-11-16 00:37:14.8679|ERROR|Dadata_service.ErrorHandlingMiddleware|System.Net.Http.HttpRequestException: Response status code does not indicate success: 400 ().
